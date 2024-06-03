@@ -1,0 +1,86 @@
+CRITICAL - 2022-12-24 20:38:00 --> Undefined index: sesnama
+in APPPATH\Views\layout\header.php on line 85.
+ 1 APPPATH\Views\layout\header.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: sesnama', 'APPPATH\\Views\\layout\\header.php', 85, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout/header', [], true)
+ 5 APPPATH\Views\admin\V_Sekolah.php(1): view('layout/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\V_Sekolah.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/V_Sekolah', [], true)
+ 9 APPPATH\Controllers\Sekolah.php(30): view('admin/V_Sekolah', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->index()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-24 20:45:40 --> syntax error, unexpected ')', expecting '{'
+in APPPATH\Controllers\Dasboard.php on line 31.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('dasboard')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('dasboard')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('dasboard')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-24 20:51:48 --> Undefined index: id_bentuk_pendidikan
+in APPPATH\Controllers\Dasboard.php on line 31.
+ 1 APPPATH\Controllers\Dasboard.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_bentuk_pendidikan', 'APPPATH\\Controllers\\Dasboard.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dasboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dasboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-24 20:51:49 --> Undefined index: id_bentuk_pendidikan
+in APPPATH\Controllers\Dasboard.php on line 31.
+ 1 APPPATH\Controllers\Dasboard.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_bentuk_pendidikan', 'APPPATH\\Controllers\\Dasboard.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dasboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dasboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-24 20:51:49 --> Undefined index: id_bentuk_pendidikan
+in APPPATH\Controllers\Dasboard.php on line 31.
+ 1 APPPATH\Controllers\Dasboard.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_bentuk_pendidikan', 'APPPATH\\Controllers\\Dasboard.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dasboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dasboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-24 20:52:39 --> Undefined index: id_bentuk_pendidikan
+in APPPATH\Controllers\Dasboard.php on line 31.
+ 1 APPPATH\Controllers\Dasboard.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_bentuk_pendidikan', 'APPPATH\\Controllers\\Dasboard.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dasboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dasboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-24 21:18:17 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Dasboard.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dasboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dasboard))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-24 21:19:17 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Dasboard.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dasboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dasboard))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-24 21:19:19 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Dasboard.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dasboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dasboard))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-24 21:20:30 --> Trying to get property 'id_bentuk_pendidikan' of non-object
+in APPPATH\Controllers\Dasboard.php on line 31.
+ 1 APPPATH\Controllers\Dasboard.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id_bentuk_pendidikan\' of non-object', 'APPPATH\\Controllers\\Dasboard.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dasboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dasboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

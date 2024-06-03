@@ -1,0 +1,1280 @@
+CRITICAL - 2022-12-12 00:08:55 --> Cannot use object of type stdClass as array
+in APPPATH\Views\admin\V_KecamatanSekolah.php on line 48.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/V_kecamatanSekolah', [], true)
+ 4 APPPATH\Controllers\Kecamatan.php(39): view('admin/V_kecamatanSekolah', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 00:09:12 --> Undefined variable: totJmlSiswa
+in APPPATH\Views\admin\V_KecamatanSekolah.php on line 48.
+ 1 APPPATH\Views\admin\V_KecamatanSekolah.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: totJmlSiswa', 'APPPATH\\Views\\admin\\V_KecamatanSekolah.php', 48, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\V_KecamatanSekolah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/V_kecamatanSekolah', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(39): view('admin/V_kecamatanSekolah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 00:18:48 --> Undefined variable: totsiswa
+in APPPATH\Controllers\Kecamatan.php on line 35.
+ 1 APPPATH\Controllers\Kecamatan.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: totsiswa', 'APPPATH\\Controllers\\Kecamatan.php', 35, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 00:30:33 --> Undefined variable: totsiswa
+in APPPATH\Controllers\Kecamatan.php on line 35.
+ 1 APPPATH\Controllers\Kecamatan.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: totsiswa', 'APPPATH\\Controllers\\Kecamatan.php', 35, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 00:30:34 --> Undefined variable: totsiswa
+in APPPATH\Controllers\Kecamatan.php on line 35.
+ 1 APPPATH\Controllers\Kecamatan.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: totsiswa', 'APPPATH\\Controllers\\Kecamatan.php', 35, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 00:30:35 --> Undefined variable: totsiswa
+in APPPATH\Controllers\Kecamatan.php on line 35.
+ 1 APPPATH\Controllers\Kecamatan.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: totsiswa', 'APPPATH\\Controllers\\Kecamatan.php', 35, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 00:30:35 --> Undefined variable: totsiswa
+in APPPATH\Controllers\Kecamatan.php on line 35.
+ 1 APPPATH\Controllers\Kecamatan.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: totsiswa', 'APPPATH\\Controllers\\Kecamatan.php', 35, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 00:30:36 --> Undefined variable: totsiswa
+in APPPATH\Controllers\Kecamatan.php on line 35.
+ 1 APPPATH\Controllers\Kecamatan.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: totsiswa', 'APPPATH\\Controllers\\Kecamatan.php', 35, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 00:30:36 --> Undefined variable: totsiswa
+in APPPATH\Controllers\Kecamatan.php on line 35.
+ 1 APPPATH\Controllers\Kecamatan.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: totsiswa', 'APPPATH\\Controllers\\Kecamatan.php', 35, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 00:30:36 --> Undefined variable: totsiswa
+in APPPATH\Controllers\Kecamatan.php on line 35.
+ 1 APPPATH\Controllers\Kecamatan.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: totsiswa', 'APPPATH\\Controllers\\Kecamatan.php', 35, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 00:30:37 --> Undefined variable: totsiswa
+in APPPATH\Controllers\Kecamatan.php on line 35.
+ 1 APPPATH\Controllers\Kecamatan.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: totsiswa', 'APPPATH\\Controllers\\Kecamatan.php', 35, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 00:31:01 --> Undefined variable: totsiswa
+in APPPATH\Controllers\Kecamatan.php on line 39.
+ 1 APPPATH\Controllers\Kecamatan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: totsiswa', 'APPPATH\\Controllers\\Kecamatan.php', 39, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 00:31:02 --> Undefined variable: totsiswa
+in APPPATH\Controllers\Kecamatan.php on line 39.
+ 1 APPPATH\Controllers\Kecamatan.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: totsiswa', 'APPPATH\\Controllers\\Kecamatan.php', 39, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 01:17:30 --> Class 'App\Controllers\ModelSekolah' not found
+in APPPATH\Controllers\Sekolah.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Sekolah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 01:19:33 --> Class 'App\Controllers\ModelSekolah' not found
+in APPPATH\Controllers\Sekolah.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Sekolah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 01:20:28 --> Class 'App\Controllers\ModelSekolah' not found
+in APPPATH\Controllers\Sekolah.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Sekolah->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 02:57:05 --> Too few arguments to function App\Controllers\Sekolah::detailSekolah(), 0 passed in C:\xampp\htdocs\muhasin\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Sekolah.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->detailSekolah()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 02:57:13 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Sekolah.php(29): CodeIgniter\Model->__call('detailSekolah', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->detailSekolah('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 03:18:29 --> Undefined property: stdClass::$kepsek
+in APPPATH\Views\admin\V_DetailSekolah.php on line 45.
+ 1 APPPATH\Views\admin\V_DetailSekolah.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$kepsek', 'APPPATH\\Views\\admin\\V_DetailSekolah.php', 45, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\V_DetailSekolah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/V_DetailSekolah', [], true)
+ 5 APPPATH\Controllers\Sekolah.php(36): view('admin/V_DetailSekolah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->detailSekolah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 09:23:03 --> Array to string conversion
+in APPPATH\Views\admin\V_Kecamatan.php on line 74.
+ 1 APPPATH\Views\admin\V_Kecamatan.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Views\\admin\\V_Kecamatan.php', 74, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\V_Kecamatan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/V_Kecamatan', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(27): view('admin/V_Kecamatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 10:27:24 --> Undefined variable: id_bentuk_pendidikan
+in APPPATH\Controllers\Sekolah.php on line 40.
+ 1 APPPATH\Controllers\Sekolah.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_bentuk_pendidikan', 'APPPATH\\Controllers\\Sekolah.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 10:27:46 --> Undefined variable: id_bentuk_pendidikan
+in APPPATH\Controllers\Sekolah.php on line 40.
+ 1 APPPATH\Controllers\Sekolah.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_bentuk_pendidikan', 'APPPATH\\Controllers\\Sekolah.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 10:28:06 --> Undefined variable: id_bentuk_pendidikan
+in APPPATH\Controllers\Sekolah.php on line 40.
+ 1 APPPATH\Controllers\Sekolah.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_bentuk_pendidikan', 'APPPATH\\Controllers\\Sekolah.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 10:28:07 --> Undefined variable: id_bentuk_pendidikan
+in APPPATH\Controllers\Sekolah.php on line 40.
+ 1 APPPATH\Controllers\Sekolah.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_bentuk_pendidikan', 'APPPATH\\Controllers\\Sekolah.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 10:28:33 --> Undefined variable: id_bentuk_pendidikan
+in APPPATH\Controllers\Sekolah.php on line 40.
+ 1 APPPATH\Controllers\Sekolah.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_bentuk_pendidikan', 'APPPATH\\Controllers\\Sekolah.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 10:28:34 --> Undefined variable: id_bentuk_pendidikan
+in APPPATH\Controllers\Sekolah.php on line 40.
+ 1 APPPATH\Controllers\Sekolah.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_bentuk_pendidikan', 'APPPATH\\Controllers\\Sekolah.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 10:28:35 --> Undefined variable: id_bentuk_pendidikan
+in APPPATH\Controllers\Sekolah.php on line 40.
+ 1 APPPATH\Controllers\Sekolah.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_bentuk_pendidikan', 'APPPATH\\Controllers\\Sekolah.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 10:28:35 --> Undefined variable: id_bentuk_pendidikan
+in APPPATH\Controllers\Sekolah.php on line 40.
+ 1 APPPATH\Controllers\Sekolah.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_bentuk_pendidikan', 'APPPATH\\Controllers\\Sekolah.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 10:28:35 --> Undefined variable: id_bentuk_pendidikan
+in APPPATH\Controllers\Sekolah.php on line 40.
+ 1 APPPATH\Controllers\Sekolah.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_bentuk_pendidikan', 'APPPATH\\Controllers\\Sekolah.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 10:28:35 --> Undefined variable: id_bentuk_pendidikan
+in APPPATH\Controllers\Sekolah.php on line 40.
+ 1 APPPATH\Controllers\Sekolah.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_bentuk_pendidikan', 'APPPATH\\Controllers\\Sekolah.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 10:28:36 --> Undefined variable: id_bentuk_pendidikan
+in APPPATH\Controllers\Sekolah.php on line 40.
+ 1 APPPATH\Controllers\Sekolah.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_bentuk_pendidikan', 'APPPATH\\Controllers\\Sekolah.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 10:28:36 --> Undefined variable: id_bentuk_pendidikan
+in APPPATH\Controllers\Sekolah.php on line 40.
+ 1 APPPATH\Controllers\Sekolah.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_bentuk_pendidikan', 'APPPATH\\Controllers\\Sekolah.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 10:28:36 --> Undefined variable: id_bentuk_pendidikan
+in APPPATH\Controllers\Sekolah.php on line 40.
+ 1 APPPATH\Controllers\Sekolah.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_bentuk_pendidikan', 'APPPATH\\Controllers\\Sekolah.php', 40, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 10:28:47 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Sekolah.php(40): CodeIgniter\Model->__call('bentuksekolah', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 10:28:48 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Sekolah.php(40): CodeIgniter\Model->__call('bentuksekolah', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 10:28:49 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Sekolah.php(40): CodeIgniter\Model->__call('bentuksekolah', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 10:28:49 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Sekolah.php(40): CodeIgniter\Model->__call('bentuksekolah', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 10:28:49 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Sekolah.php(40): CodeIgniter\Model->__call('bentuksekolah', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 10:28:49 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Sekolah.php(40): CodeIgniter\Model->__call('bentuksekolah', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-12 10:29:02 --> mysqli_sql_exception: Column 'id_bentuk_pendidikan' in where clause is ambiguous in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah....', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah....')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah....')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah....')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Sekolah.php(40): App\Models\ModelSekolah->bentuksekolah('1')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-12 10:29:02 --> Column 'id_bentuk_pendidikan' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 4 APPPATH\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 5 APPPATH\Controllers\Sekolah.php(40): App\Models\ModelSekolah->bentuksekolah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-12 10:29:03 --> mysqli_sql_exception: Column 'id_bentuk_pendidikan' in where clause is ambiguous in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah....', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah....')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah....')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah....')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Sekolah.php(40): App\Models\ModelSekolah->bentuksekolah('1')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-12 10:29:03 --> Column 'id_bentuk_pendidikan' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 4 APPPATH\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 5 APPPATH\Controllers\Sekolah.php(40): App\Models\ModelSekolah->bentuksekolah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-12 10:29:03 --> mysqli_sql_exception: Column 'id_bentuk_pendidikan' in where clause is ambiguous in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah....', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah....')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah....')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah....')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Sekolah.php(40): App\Models\ModelSekolah->bentuksekolah('1')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-12 10:29:03 --> Column 'id_bentuk_pendidikan' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 4 APPPATH\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 5 APPPATH\Controllers\Sekolah.php(40): App\Models\ModelSekolah->bentuksekolah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-12 10:29:03 --> mysqli_sql_exception: Column 'id_bentuk_pendidikan' in where clause is ambiguous in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah....', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah....')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah....')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah....')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Sekolah.php(40): App\Models\ModelSekolah->bentuksekolah('1')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-12 10:29:03 --> Column 'id_bentuk_pendidikan' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 4 APPPATH\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 5 APPPATH\Controllers\Sekolah.php(40): App\Models\ModelSekolah->bentuksekolah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 10:29:22 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Sekolah.php(40): CodeIgniter\Model->__call('bentuksekolah', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 10:29:23 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Sekolah.php(40): CodeIgniter\Model->__call('bentuksekolah', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 10:29:23 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Sekolah.php(40): CodeIgniter\Model->__call('bentuksekolah', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-12 10:29:48 --> mysqli_sql_exception: Column 'id_bentuk_pendidikan' in where clause is ambiguous in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah....', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah....')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah....')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah....')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-12 10:29:48 --> Column 'id_bentuk_pendidikan' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 4 APPPATH\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 5 APPPATH\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-12 10:29:49 --> mysqli_sql_exception: Column 'id_bentuk_pendidikan' in where clause is ambiguous in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah....', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah....')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah....')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah....')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-12 10:29:49 --> Column 'id_bentuk_pendidikan' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 4 APPPATH\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 5 APPPATH\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-12 10:31:00 --> mysqli_sql_exception: Column 'id_bentuk_pendidikan' in where clause is ambiguous in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah....', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah....')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah....')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah....')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-12 10:31:00 --> Column 'id_bentuk_pendidikan' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 4 APPPATH\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 5 APPPATH\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-12 10:31:02 --> mysqli_sql_exception: Column 'id_bentuk_pendidikan' in where clause is ambiguous in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah....', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah....')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah....')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah....')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-12 10:31:02 --> Column 'id_bentuk_pendidikan' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 4 APPPATH\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 5 APPPATH\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-12 10:31:02 --> mysqli_sql_exception: Column 'id_bentuk_pendidikan' in where clause is ambiguous in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah....', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah....')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah....')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah....')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-12 10:31:02 --> Column 'id_bentuk_pendidikan' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 4 APPPATH\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 5 APPPATH\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-12 10:31:03 --> mysqli_sql_exception: Column 'id_bentuk_pendidikan' in where clause is ambiguous in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah....', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah....')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah....')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah....')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-12 10:31:03 --> Column 'id_bentuk_pendidikan' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 4 APPPATH\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 5 APPPATH\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-12 10:31:03 --> mysqli_sql_exception: Column 'id_bentuk_pendidikan' in where clause is ambiguous in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah....', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah....')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah....')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah....')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-12 10:31:03 --> Column 'id_bentuk_pendidikan' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 4 APPPATH\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 5 APPPATH\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-12 10:31:03 --> mysqli_sql_exception: Column 'id_bentuk_pendidikan' in where clause is ambiguous in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah....', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah....')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah....')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah....')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-12 10:31:03 --> Column 'id_bentuk_pendidikan' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 4 APPPATH\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 5 APPPATH\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-12 10:31:03 --> mysqli_sql_exception: Column 'id_bentuk_pendidikan' in where clause is ambiguous in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah....', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah....')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah....')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah....')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-12 10:31:03 --> Column 'id_bentuk_pendidikan' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 4 APPPATH\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 5 APPPATH\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-12 10:31:03 --> mysqli_sql_exception: Column 'id_bentuk_pendidikan' in where clause is ambiguous in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah....', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah....')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah....')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah....')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-12 10:31:03 --> Column 'id_bentuk_pendidikan' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 4 APPPATH\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 5 APPPATH\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-12 10:31:04 --> mysqli_sql_exception: Column 'id_bentuk_pendidikan' in where clause is ambiguous in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah....', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah....')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah....')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah....')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-12 10:31:04 --> Column 'id_bentuk_pendidikan' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 4 APPPATH\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 5 APPPATH\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-12 10:31:04 --> mysqli_sql_exception: Column 'id_bentuk_pendidikan' in where clause is ambiguous in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah....', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah....')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah....')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah....')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-12 10:31:04 --> Column 'id_bentuk_pendidikan' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 4 APPPATH\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 5 APPPATH\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-12 10:31:27 --> Too few arguments to function App\Controllers\Sekolah::bentuksekolah(), 0 passed in C:\xampp\htdocs\muhasin\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Sekolah.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-12 10:31:29 --> mysqli_sql_exception: Column 'id_bentuk_pendidikan' in where clause is ambiguous in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah....', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah....')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah....')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah....')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-12 10:31:29 --> Column 'id_bentuk_pendidikan' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 4 APPPATH\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = 1')
+ 5 APPPATH\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-12 10:32:19 --> mysqli_sql_exception: Column 'id_bentuk_pendidikan' in where clause is ambiguous in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah....', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah....')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah....')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah....')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-12 10:32:19 --> Column 'id_bentuk_pendidikan' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = \'1\'')
+ 4 APPPATH\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = \'1\'')
+ 5 APPPATH\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-12 10:32:20 --> mysqli_sql_exception: Column 'id_bentuk_pendidikan' in where clause is ambiguous in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah....', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah....')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah....')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah....')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-12 10:32:20 --> Column 'id_bentuk_pendidikan' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = \'1\'')
+ 4 APPPATH\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = \'1\'')
+ 5 APPPATH\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-12 10:32:20 --> mysqli_sql_exception: Column 'id_bentuk_pendidikan' in where clause is ambiguous in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah....', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah....')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah....')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah....')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-12 10:32:20 --> Column 'id_bentuk_pendidikan' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = \'1\'')
+ 4 APPPATH\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = \'1\'')
+ 5 APPPATH\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-12 10:32:20 --> mysqli_sql_exception: Column 'id_bentuk_pendidikan' in where clause is ambiguous in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah....', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah....')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah....')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah....')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-12 10:32:20 --> Column 'id_bentuk_pendidikan' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = \'1\'')
+ 4 APPPATH\Models\ModelSekolah.php(29): CodeIgniter\Database\BaseConnection->query('SELECT sekolah.*, bentuk_pendidikan.nm_bentuk_pendidikan, kecamatan.nm_kecamatan
+        FROM sekolah 
+        JOIN kecamatan ON kecamatan.id_kecamatan = sekolah.id_kecamatan
+        JOIN bentuk_pendidikan ON bentuk_pendidikan.id_bentuk_pendidikan = sekolah.id_bentuk_pendidikan
+        where id_bentuk_pendidikan = \'1\'')
+ 5 APPPATH\Controllers\Sekolah.php(40): App\Models\ModelSekolah->getdatasekolah('1')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->bentuksekolah('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-12 20:51:27 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'muhasin', 3306, '', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\muhasin\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\muhasin\app\Models\ModelLogin.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\muhasin\app\Controllers\Login.php(32): App\Models\ModelLogin->getDataId('user', Array)
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Login->prosesLogin()
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelLogin.php(19): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Login.php(32): App\Models\ModelLogin->getDataId('user', Array)
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Login->prosesLogin()
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-12 20:51:27 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `username` = :username:', [...], false)
+ 3 APPPATH\Models\ModelLogin.php(19): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Login.php(32): App\Models\ModelLogin->getDataId('user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->prosesLogin()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

@@ -1,0 +1,1125 @@
+CRITICAL - 2022-12-11 00:14:06 --> Undefined variable: whare
+in APPPATH\Models\ModelLogin.php on line 10.
+ 1 APPPATH\Models\ModelLogin.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: whare', 'APPPATH\\Models\\ModelLogin.php', 10, [...])
+ 2 APPPATH\Controllers\Login.php(29): App\Models\ModelLogin->cekData('user', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->prosesLogin()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 00:28:05 --> Undefined variable: whare
+in APPPATH\Models\ModelLogin.php on line 10.
+ 1 APPPATH\Models\ModelLogin.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: whare', 'APPPATH\\Models\\ModelLogin.php', 10, [...])
+ 2 APPPATH\Controllers\Login.php(29): App\Models\ModelLogin->cekData('user', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->prosesLogin()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 00:31:12 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\ModelLogin.php(10): CodeIgniter\Model->__get('whare')
+ 4 APPPATH\Controllers\Login.php(29): App\Models\ModelLogin->cekData('user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->prosesLogin()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 00:31:14 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(735): CodeIgniter\Model->builder()
+ 3 APPPATH\Models\ModelLogin.php(10): CodeIgniter\Model->__get('whare')
+ 4 APPPATH\Controllers\Login.php(29): App\Models\ModelLogin->cekData('user', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->prosesLogin()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-11 00:33:55 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' password = admin' at line 1 in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelLogin.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Login.php(30): App\Models\ModelLogin->cekData('admin', 'admin')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Login->prosesLogin()
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-11 00:33:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' password = admin' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM user where username = admin, password = admin', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM user where username = admin, password = admin')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM user where username = admin, password = admin')
+ 4 APPPATH\Models\ModelLogin.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM user where username = admin, password = admin')
+ 5 APPPATH\Controllers\Login.php(30): App\Models\ModelLogin->cekData('admin', 'admin')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->prosesLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-11 00:34:30 --> mysqli_sql_exception: Unknown column 'admin' in 'where clause' in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelLogin.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Login.php(30): App\Models\ModelLogin->cekData('admin', 'admin')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Login->prosesLogin()
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-11 00:34:30 --> Unknown column 'admin' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM user where username = admin and password = admin', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM user where username = admin and password = admin')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM user where username = admin and password = admin')
+ 4 APPPATH\Models\ModelLogin.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM user where username = admin and password = admin')
+ 5 APPPATH\Controllers\Login.php(30): App\Models\ModelLogin->cekData('admin', 'admin')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->prosesLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-11 00:34:33 --> mysqli_sql_exception: Unknown column 'admin' in 'where clause' in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM u...', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM u...')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM u...')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelLogin.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Login.php(30): App\Models\ModelLogin->cekData('admin', 'admin')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Login->prosesLogin()
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-12-11 00:34:33 --> Unknown column 'admin' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM user where username = admin and password = admin', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM user where username = admin and password = admin')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM user where username = admin and password = admin')
+ 4 APPPATH\Models\ModelLogin.php(10): CodeIgniter\Database\BaseConnection->query('SELECT * FROM user where username = admin and password = admin')
+ 5 APPPATH\Controllers\Login.php(30): App\Models\ModelLogin->cekData('admin', 'admin')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->prosesLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 05:17:35 --> Uncaught CodeIgniter\View\Exceptions\ViewException: Invalid file: ../layout/scrip_header.php in C:\xampp\htdocs\muhasin\system\Exceptions\FrameworkException.php:33
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../layout/scrip...')
+#1 C:\xampp\htdocs\muhasin\system\Common.php(1134): CodeIgniter\View\View->render('../layout/scrip...', Array, true)
+#2 C:\xampp\htdocs\muhasin\app\Views\errors\html\error_404.php(1): view('../layout/scrip...')
+#3 C:\xampp\htdocs\muhasin\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\muhasin\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\muhasin\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#7 {ma
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-11 05:18:02 --> Uncaught CodeIgniter\View\Exceptions\ViewException: Invalid file: ../layout/scrip_header.php in C:\xampp\htdocs\muhasin\system\Exceptions\FrameworkException.php:33
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../layout/scrip...')
+#1 C:\xampp\htdocs\muhasin\system\Common.php(1134): CodeIgniter\View\View->render('../layout/scrip...', Array, true)
+#2 C:\xampp\htdocs\muhasin\app\Views\errors\html\error_404.php(1): view('../layout/scrip...')
+#3 C:\xampp\htdocs\muhasin\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\muhasin\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\muhasin\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#7 {ma
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-11 05:18:35 --> Uncaught CodeIgniter\View\Exceptions\ViewException: Invalid file: ../layout/scrip_header.php in C:\xampp\htdocs\muhasin\system\Exceptions\FrameworkException.php:33
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../layout/scrip...')
+#1 C:\xampp\htdocs\muhasin\system\Common.php(1134): CodeIgniter\View\View->render('../layout/scrip...', Array, true)
+#2 C:\xampp\htdocs\muhasin\app\Views\errors\html\error_404.php(1): view('../layout/scrip...')
+#3 C:\xampp\htdocs\muhasin\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\muhasin\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\muhasin\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#7 {ma
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-11 05:19:50 --> Uncaught CodeIgniter\View\Exceptions\ViewException: Invalid file: ../layout/scrip_header.php in C:\xampp\htdocs\muhasin\system\Exceptions\FrameworkException.php:33
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../layout/scrip...')
+#1 C:\xampp\htdocs\muhasin\system\Common.php(1134): CodeIgniter\View\View->render('../layout/scrip...', Array, true)
+#2 C:\xampp\htdocs\muhasin\app\Views\errors\html\error_404.php(1): view('../layout/scrip...')
+#3 C:\xampp\htdocs\muhasin\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\muhasin\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\muhasin\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#7 {ma
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-11 05:19:51 --> Uncaught CodeIgniter\View\Exceptions\ViewException: Invalid file: ../layout/scrip_header.php in C:\xampp\htdocs\muhasin\system\Exceptions\FrameworkException.php:33
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../layout/scrip...')
+#1 C:\xampp\htdocs\muhasin\system\Common.php(1134): CodeIgniter\View\View->render('../layout/scrip...', Array, true)
+#2 C:\xampp\htdocs\muhasin\app\Views\errors\html\error_404.php(1): view('../layout/scrip...')
+#3 C:\xampp\htdocs\muhasin\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\muhasin\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\muhasin\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#7 {ma
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-11 05:19:52 --> Uncaught CodeIgniter\View\Exceptions\ViewException: Invalid file: ../layout/scrip_header.php in C:\xampp\htdocs\muhasin\system\Exceptions\FrameworkException.php:33
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../layout/scrip...')
+#1 C:\xampp\htdocs\muhasin\system\Common.php(1134): CodeIgniter\View\View->render('../layout/scrip...', Array, true)
+#2 C:\xampp\htdocs\muhasin\app\Views\errors\html\error_404.php(1): view('../layout/scrip...')
+#3 C:\xampp\htdocs\muhasin\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\muhasin\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\muhasin\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#7 {ma
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-11 05:20:32 --> Uncaught CodeIgniter\View\Exceptions\ViewException: Invalid file: ../../layout/scrip_header.php in C:\xampp\htdocs\muhasin\system\Exceptions\FrameworkException.php:33
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../../layout/sc...')
+#1 C:\xampp\htdocs\muhasin\system\Common.php(1134): CodeIgniter\View\View->render('../../layout/sc...', Array, true)
+#2 C:\xampp\htdocs\muhasin\app\Views\errors\html\error_404.php(1): view('../../layout/sc...')
+#3 C:\xampp\htdocs\muhasin\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\muhasin\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\muhasin\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#7 
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-11 05:20:33 --> Uncaught CodeIgniter\View\Exceptions\ViewException: Invalid file: ../../layout/scrip_header.php in C:\xampp\htdocs\muhasin\system\Exceptions\FrameworkException.php:33
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../../layout/sc...')
+#1 C:\xampp\htdocs\muhasin\system\Common.php(1134): CodeIgniter\View\View->render('../../layout/sc...', Array, true)
+#2 C:\xampp\htdocs\muhasin\app\Views\errors\html\error_404.php(1): view('../../layout/sc...')
+#3 C:\xampp\htdocs\muhasin\system\Debug\Exceptions.php(284): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\muhasin\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\muhasin\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#6 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#7 
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-11 05:35:38 --> Undefined variable: title
+in APPPATH\Views\admin\V_login.php on line 6.
+ 1 APPPATH\Views\admin\V_login.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\admin\\V_login.php', 6, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\V_login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/V_login', [], true)
+ 5 APPPATH\Controllers\Login.php(19): view('admin/V_login')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 05:36:55 --> Undefined variable: title
+in APPPATH\Views\layout\header.php on line 6.
+ 1 APPPATH\Views\layout\header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\layout\\header.php', 6, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout/header', [], true)
+ 5 APPPATH\Views\data.php(1): view('layout/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\data.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('data', [], true)
+ 9 APPPATH\Controllers\Data.php(11): view('data')
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Data->index()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 05:40:47 --> Undefined property: App\Controllers\Kecamatan::$kecamtan
+in APPPATH\Controllers\Kecamatan.php on line 18.
+ 1 APPPATH\Controllers\Kecamatan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Kecamatan::$kecamtan', 'APPPATH\\Controllers\\Kecamatan.php', 18, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 05:40:59 --> Undefined property: App\Controllers\Kecamatan::$kecamtan
+in APPPATH\Controllers\Kecamatan.php on line 18.
+ 1 APPPATH\Controllers\Kecamatan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Kecamatan::$kecamtan', 'APPPATH\\Controllers\\Kecamatan.php', 18, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 05:41:08 --> Undefined property: App\Controllers\Kecamatan::$kecamtan
+in APPPATH\Controllers\Kecamatan.php on line 18.
+ 1 APPPATH\Controllers\Kecamatan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Kecamatan::$kecamtan', 'APPPATH\\Controllers\\Kecamatan.php', 18, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 05:42:30 --> Undefined variable: title
+in APPPATH\Views\layout\header.php on line 6.
+ 1 APPPATH\Views\layout\header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\layout\\header.php', 6, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout/header', [], true)
+ 5 APPPATH\Views\home.php(1): view('layout/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home', [], true)
+ 9 APPPATH\Controllers\Home.php(9): view('home')
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 05:42:35 --> Undefined property: App\Controllers\Kecamatan::$kecamtan
+in APPPATH\Controllers\Kecamatan.php on line 18.
+ 1 APPPATH\Controllers\Kecamatan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Kecamatan::$kecamtan', 'APPPATH\\Controllers\\Kecamatan.php', 18, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 05:42:54 --> Undefined property: App\Controllers\Kecamatan::$kecamtan
+in APPPATH\Controllers\Kecamatan.php on line 18.
+ 1 APPPATH\Controllers\Kecamatan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Kecamatan::$kecamtan', 'APPPATH\\Controllers\\Kecamatan.php', 18, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 05:44:34 --> Undefined property: App\Controllers\Kecamatan::$kecamtan
+in APPPATH\Controllers\Kecamatan.php on line 18.
+ 1 APPPATH\Controllers\Kecamatan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Kecamatan::$kecamtan', 'APPPATH\\Controllers\\Kecamatan.php', 18, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 05:44:45 --> Undefined property: App\Controllers\Kecamatan::$kecamtan
+in APPPATH\Controllers\Kecamatan.php on line 18.
+ 1 APPPATH\Controllers\Kecamatan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Kecamatan::$kecamtan', 'APPPATH\\Controllers\\Kecamatan.php', 18, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 05:45:09 --> Undefined property: App\Controllers\Kecamatan::$kecamtan
+in APPPATH\Controllers\Kecamatan.php on line 18.
+ 1 APPPATH\Controllers\Kecamatan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Kecamatan::$kecamtan', 'APPPATH\\Controllers\\Kecamatan.php', 18, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 05:47:30 --> Undefined property: App\Controllers\Kecamatan::$kecamtan
+in APPPATH\Controllers\Kecamatan.php on line 18.
+ 1 APPPATH\Controllers\Kecamatan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Kecamatan::$kecamtan', 'APPPATH\\Controllers\\Kecamatan.php', 18, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 05:48:37 --> Undefined property: App\Controllers\Kecamatan::$kecamtan
+in APPPATH\Controllers\Kecamatan.php on line 18.
+ 1 APPPATH\Controllers\Kecamatan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Kecamatan::$kecamtan', 'APPPATH\\Controllers\\Kecamatan.php', 18, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 05:48:38 --> Undefined property: App\Controllers\Kecamatan::$kecamtan
+in APPPATH\Controllers\Kecamatan.php on line 18.
+ 1 APPPATH\Controllers\Kecamatan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Kecamatan::$kecamtan', 'APPPATH\\Controllers\\Kecamatan.php', 18, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 05:48:44 --> Undefined property: App\Controllers\Kecamatan::$kecamtan
+in APPPATH\Controllers\Kecamatan.php on line 18.
+ 1 APPPATH\Controllers\Kecamatan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Kecamatan::$kecamtan', 'APPPATH\\Controllers\\Kecamatan.php', 18, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 05:50:45 --> Undefined property: App\Controllers\Kecamatan::$kecamtan
+in APPPATH\Controllers\Kecamatan.php on line 18.
+ 1 APPPATH\Controllers\Kecamatan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Kecamatan::$kecamtan', 'APPPATH\\Controllers\\Kecamatan.php', 18, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 05:50:46 --> Undefined property: App\Controllers\Kecamatan::$kecamtan
+in APPPATH\Controllers\Kecamatan.php on line 18.
+ 1 APPPATH\Controllers\Kecamatan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Kecamatan::$kecamtan', 'APPPATH\\Controllers\\Kecamatan.php', 18, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 05:50:46 --> Undefined property: App\Controllers\Kecamatan::$kecamtan
+in APPPATH\Controllers\Kecamatan.php on line 18.
+ 1 APPPATH\Controllers\Kecamatan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Kecamatan::$kecamtan', 'APPPATH\\Controllers\\Kecamatan.php', 18, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 05:50:46 --> Undefined property: App\Controllers\Kecamatan::$kecamtan
+in APPPATH\Controllers\Kecamatan.php on line 18.
+ 1 APPPATH\Controllers\Kecamatan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Kecamatan::$kecamtan', 'APPPATH\\Controllers\\Kecamatan.php', 18, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 05:51:13 --> Undefined property: App\Controllers\Kecamatan::$kecamtan
+in APPPATH\Controllers\Kecamatan.php on line 18.
+ 1 APPPATH\Controllers\Kecamatan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Kecamatan::$kecamtan', 'APPPATH\\Controllers\\Kecamatan.php', 18, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 07:29:41 --> Undefined variable: title
+in APPPATH\Views\layout\header.php on line 6.
+ 1 APPPATH\Views\layout\header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\layout\\header.php', 6, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout/header', [], true)
+ 5 APPPATH\Views\home.php(1): view('layout/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home', [], true)
+ 9 APPPATH\Controllers\Home.php(9): view('home')
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 07:29:51 --> Undefined variable: title
+in APPPATH\Views\layout\header.php on line 6.
+ 1 APPPATH\Views\layout\header.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: title', 'APPPATH\\Views\\layout\\header.php', 6, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout/header', [], true)
+ 5 APPPATH\Views\home.php(1): view('layout/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home', [], true)
+ 9 APPPATH\Controllers\Home.php(9): view('home')
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 07:57:17 --> password_hash() expects at least 2 parameters, 1 given
+in APPPATH\Controllers\Login.php on line 19.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash() expects at least 2 parameters, 1 given', 'APPPATH\\Controllers\\Login.php', 19, [])
+ 2 APPPATH\Controllers\Login.php(19): password_hash('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 08:06:23 --> password_hash() expects at least 2 parameters, 1 given
+in APPPATH\Controllers\Login.php on line 19.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash() expects at least 2 parameters, 1 given', 'APPPATH\\Controllers\\Login.php', 19, [])
+ 2 APPPATH\Controllers\Login.php(19): password_hash('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 08:06:25 --> password_hash() expects at least 2 parameters, 1 given
+in APPPATH\Controllers\Login.php on line 19.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash() expects at least 2 parameters, 1 given', 'APPPATH\\Controllers\\Login.php', 19, [])
+ 2 APPPATH\Controllers\Login.php(19): password_hash('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 08:07:05 --> Invalid file: layout/scrip_header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/scrip_header.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout/scrip_header', [], true)
+ 3 APPPATH\Views\admin\V_login.php(8): view('layout/scrip_header')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\V_login.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/V_login', [], true)
+ 7 APPPATH\Controllers\Login.php(20): view('admin/V_login')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 08:07:06 --> Invalid file: layout/scrip_header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/scrip_header.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout/scrip_header', [], true)
+ 3 APPPATH\Views\admin\V_login.php(8): view('layout/scrip_header')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\V_login.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/V_login', [], true)
+ 7 APPPATH\Controllers\Login.php(20): view('admin/V_login')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 08:07:54 --> Invalid file: layout/scrip_header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/scrip_header.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout/scrip_header', [], true)
+ 3 APPPATH\Views\admin\V_login.php(8): view('layout/scrip_header')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\V_login.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/V_login', [], true)
+ 7 APPPATH\Controllers\Login.php(20): view('admin/V_login')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 08:08:01 --> Invalid file: layout/scrip_header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/scrip_header.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout/scrip_header', [], true)
+ 3 APPPATH\Views\admin\V_login.php(8): view('layout/scrip_header')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\V_login.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/V_login', [], true)
+ 7 APPPATH\Controllers\Login.php(20): view('admin/V_login')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 08:09:02 --> Invalid file: layout/scrip_header.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/scrip_header.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout/scrip_header', [], true)
+ 3 APPPATH\Views\admin\V_login.php(8): view('layout/scrip_header')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\V_login.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/V_login', [], true)
+ 7 APPPATH\Controllers\Login.php(20): view('admin/V_login')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 08:11:46 --> Invalid file: layout/scrip_footer.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/scrip_footer.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout/scrip_footer', [], true)
+ 3 APPPATH\Views\admin\V_login.php(84): view('layout/scrip_footer')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\V_login.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/V_login', [], true)
+ 7 APPPATH\Controllers\Login.php(20): view('admin/V_login')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 09:47:39 --> Call to undefined function base_urn()
+in APPPATH\Views\layout\header.php on line 193.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout/header', [], true)
+ 4 APPPATH\Views\home.php(1): view('layout/header')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home', [], true)
+ 8 APPPATH\Controllers\Home.php(20): view('home', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 09:47:48 --> Call to undefined function base_ur()
+in APPPATH\Views\layout\header.php on line 193.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout/header', [], true)
+ 4 APPPATH\Views\home.php(1): view('layout/header')
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home', [], true)
+ 8 APPPATH\Controllers\Home.php(20): view('home', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 09:48:45 --> Undefined index: sesnama
+in APPPATH\Views\layout\header.php on line 196.
+ 1 APPPATH\Views\layout\header.php(196): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: sesnama', 'APPPATH\\Views\\layout\\header.php', 196, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout/header', [], true)
+ 5 APPPATH\Views\home.php(1): view('layout/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home', [], true)
+ 9 APPPATH\Controllers\Home.php(20): view('home', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 09:48:53 --> Undefined index: sesnama
+in APPPATH\Views\layout\header.php on line 196.
+ 1 APPPATH\Views\layout\header.php(196): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: sesnama', 'APPPATH\\Views\\layout\\header.php', 196, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout/header', [], true)
+ 5 APPPATH\Views\home.php(1): view('layout/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home', [], true)
+ 9 APPPATH\Controllers\Home.php(20): view('home', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 09:49:01 --> Call to a member function set() on null
+in APPPATH\Controllers\Login.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->prosesLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 09:50:26 --> Call to a member function set() on null
+in APPPATH\Controllers\Login.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->prosesLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 09:50:28 --> Call to a member function set() on null
+in APPPATH\Controllers\Login.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->prosesLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 09:50:28 --> Call to a member function set() on null
+in APPPATH\Controllers\Login.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->prosesLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 09:50:29 --> Call to a member function set() on null
+in APPPATH\Controllers\Login.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->prosesLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 09:50:29 --> Call to a member function set() on null
+in APPPATH\Controllers\Login.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->prosesLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 09:50:29 --> Call to a member function set() on null
+in APPPATH\Controllers\Login.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->prosesLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 09:52:04 --> Call to a member function set() on null
+in APPPATH\Controllers\Login.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->prosesLogin()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 10:38:13 --> Invalid file: home.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Home.php(20): view('home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 10:38:17 --> Invalid file: home.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Dasboard.php(22): view('home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dasboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dasboard))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 10:38:26 --> Invalid file: home.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH\Controllers\Dasboard.php(22): view('home', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dasboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dasboard))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 11:01:28 --> Undefined index: sesnama
+in APPPATH\Views\layout\header.php on line 85.
+ 1 APPPATH\Views\layout\header.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: sesnama', 'APPPATH\\Views\\layout\\header.php', 85, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout/header', [], true)
+ 5 APPPATH\Views\dasboard.php(1): view('layout/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dasboard.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('dasboard', [], true)
+ 9 APPPATH\Controllers\Dasboard.php(22): view('dasboard', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dasboard->index()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dasboard))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 11:08:48 --> Trying to get property 'logged_in' of non-object
+in APPPATH\Controllers\Dasboard.php on line 18.
+ 1 APPPATH\Controllers\Dasboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'logged_in\' of non-object', 'APPPATH\\Controllers\\Dasboard.php', 18, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dasboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dasboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 11:09:09 --> Trying to get property 'logged_in' of non-object
+in APPPATH\Controllers\Dasboard.php on line 18.
+ 1 APPPATH\Controllers\Dasboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'logged_in\' of non-object', 'APPPATH\\Controllers\\Dasboard.php', 18, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dasboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dasboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 11:09:10 --> Trying to get property 'logged_in' of non-object
+in APPPATH\Controllers\Dasboard.php on line 18.
+ 1 APPPATH\Controllers\Dasboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'logged_in\' of non-object', 'APPPATH\\Controllers\\Dasboard.php', 18, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dasboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dasboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 11:09:10 --> Trying to get property 'logged_in' of non-object
+in APPPATH\Controllers\Dasboard.php on line 18.
+ 1 APPPATH\Controllers\Dasboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'logged_in\' of non-object', 'APPPATH\\Controllers\\Dasboard.php', 18, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dasboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dasboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 11:09:10 --> Trying to get property 'logged_in' of non-object
+in APPPATH\Controllers\Dasboard.php on line 18.
+ 1 APPPATH\Controllers\Dasboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'logged_in\' of non-object', 'APPPATH\\Controllers\\Dasboard.php', 18, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dasboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dasboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 11:09:10 --> Trying to get property 'logged_in' of non-object
+in APPPATH\Controllers\Dasboard.php on line 18.
+ 1 APPPATH\Controllers\Dasboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'logged_in\' of non-object', 'APPPATH\\Controllers\\Dasboard.php', 18, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dasboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dasboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 11:09:11 --> Trying to get property 'logged_in' of non-object
+in APPPATH\Controllers\Dasboard.php on line 18.
+ 1 APPPATH\Controllers\Dasboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'logged_in\' of non-object', 'APPPATH\\Controllers\\Dasboard.php', 18, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dasboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dasboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 11:09:11 --> Trying to get property 'logged_in' of non-object
+in APPPATH\Controllers\Dasboard.php on line 18.
+ 1 APPPATH\Controllers\Dasboard.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'logged_in\' of non-object', 'APPPATH\\Controllers\\Dasboard.php', 18, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dasboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dasboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 11:09:37 --> Call to undefined method App\Controllers\Dasboard::session()
+in APPPATH\Controllers\Dasboard.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dasboard->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dasboard))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 11:22:04 --> Use of undefined constant flase - assumed 'flase' (this will throw an Error in a future version of PHP)
+in APPPATH\Controllers\Dasboard.php on line 20.
+ 1 APPPATH\Controllers\Dasboard.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefined constant flase - assumed \'flase\' (this will throw an Error in a future version of PHP)', 'APPPATH\\Controllers\\Dasboard.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Dasboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dasboard))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 11:28:35 --> Undefined variable: _SESSION
+in APPPATH\Views\layout\header.php on line 85.
+ 1 APPPATH\Views\layout\header.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: _SESSION', 'APPPATH\\Views\\layout\\header.php', 85, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout/header', [], true)
+ 5 APPPATH\Views\data.php(1): view('layout/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\data.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('data', [], true)
+ 9 APPPATH\Controllers\Data.php(15): view('data', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Data->index()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 11:28:49 --> Undefined variable: _SESSION
+in APPPATH\Views\layout\header.php on line 85.
+ 1 APPPATH\Views\layout\header.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: _SESSION', 'APPPATH\\Views\\layout\\header.php', 85, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout/header', [], true)
+ 5 APPPATH\Views\data.php(1): view('layout/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\data.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('data', [], true)
+ 9 APPPATH\Controllers\Data.php(15): view('data', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Data->index()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Data))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 11:28:59 --> Undefined variable: _SESSION
+in APPPATH\Views\layout\header.php on line 85.
+ 1 APPPATH\Views\layout\header.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: _SESSION', 'APPPATH\\Views\\layout\\header.php', 85, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('layout/header', [], true)
+ 5 APPPATH\Views\admin\V_Kecamatan.php(1): view('layout/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\V_Kecamatan.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/V_Kecamatan', [], true)
+ 9 APPPATH\Controllers\Kecamatan.php(25): view('admin/V_Kecamatan', [...])
+10 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->index()
+11 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+12 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 11:31:11 --> Class 'App\Controllers\ModelKecamatan' not found
+in APPPATH\Controllers\Data.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Data->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:20:45 --> Too few arguments to function App\Controllers\Kecamatan::detail(), 0 passed in C:\xampp\htdocs\muhasin\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Kecamatan.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:20:52 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kecamatan.php(32): CodeIgniter\Model->__call('detaildata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:21:40 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kecamatan.php(32): CodeIgniter\Model->__call('detaildata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:21:41 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kecamatan.php(32): CodeIgniter\Model->__call('detaildata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:21:41 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kecamatan.php(32): CodeIgniter\Model->__call('detaildata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:21:42 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kecamatan.php(32): CodeIgniter\Model->__call('detaildata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:28:45 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kecamatan.php(32): CodeIgniter\Model->__call('detaildata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:28:46 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kecamatan.php(32): CodeIgniter\Model->__call('detaildata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:28:47 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kecamatan.php(32): CodeIgniter\Model->__call('detaildata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:28:47 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kecamatan.php(32): CodeIgniter\Model->__call('detaildata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:30:50 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kecamatan.php(32): CodeIgniter\Model->__call('detaildata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:30:51 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kecamatan.php(32): CodeIgniter\Model->__call('detaildata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:30:51 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kecamatan.php(32): CodeIgniter\Model->__call('detaildata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:30:51 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kecamatan.php(32): CodeIgniter\Model->__call('detaildata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:30:52 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kecamatan.php(32): CodeIgniter\Model->__call('detaildata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:30:54 --> Too few arguments to function App\Controllers\Kecamatan::detail(), 0 passed in C:\xampp\htdocs\muhasin\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Kecamatan.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:31:03 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kecamatan.php(32): CodeIgniter\Model->__call('detaildata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:33:13 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kecamatan.php(32): CodeIgniter\Model->__call('detaildata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:33:14 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\Kecamatan.php(32): CodeIgniter\Model->__call('detaildata', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:33:16 --> Too few arguments to function App\Controllers\Kecamatan::detail(), 0 passed in C:\xampp\htdocs\muhasin\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Kecamatan.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:33:37 --> Too few arguments to function App\Controllers\Kecamatan::detail(), 0 passed in C:\xampp\htdocs\muhasin\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Kecamatan.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:33:37 --> Too few arguments to function App\Controllers\Kecamatan::detail(), 0 passed in C:\xampp\htdocs\muhasin\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Kecamatan.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:33:38 --> Too few arguments to function App\Controllers\Kecamatan::detail(), 0 passed in C:\xampp\htdocs\muhasin\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Kecamatan.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:33:38 --> Too few arguments to function App\Controllers\Kecamatan::detail(), 0 passed in C:\xampp\htdocs\muhasin\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Kecamatan.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:33:38 --> Too few arguments to function App\Controllers\Kecamatan::detail(), 0 passed in C:\xampp\htdocs\muhasin\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Kecamatan.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:33:38 --> Too few arguments to function App\Controllers\Kecamatan::detail(), 0 passed in C:\xampp\htdocs\muhasin\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Kecamatan.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:51:56 --> Undefined variable: dataKecamatan
+in APPPATH\Views\admin\V_KecamatanSekolah.php on line 43.
+ 1 APPPATH\Views\admin\V_KecamatanSekolah.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: dataKecamatan', 'APPPATH\\Views\\admin\\V_KecamatanSekolah.php', 43, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\V_KecamatanSekolah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/V_kecamatanSekolah', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(39): view('admin/V_kecamatanSekolah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 21:52:26 --> Undefined property: stdClass::$nm_kecamatan
+in APPPATH\Views\admin\V_KecamatanSekolah.php on line 46.
+ 1 APPPATH\Views\admin\V_KecamatanSekolah.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nm_kecamatan', 'APPPATH\\Views\\admin\\V_KecamatanSekolah.php', 46, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\V_KecamatanSekolah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/V_kecamatanSekolah', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(39): view('admin/V_kecamatanSekolah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 22:24:22 --> Undefined property: stdClass::$jml_ptk
+in APPPATH\Views\admin\V_KecamatanSekolah.php on line 56.
+ 1 APPPATH\Views\admin\V_KecamatanSekolah.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$jml_ptk', 'APPPATH\\Views\\admin\\V_KecamatanSekolah.php', 56, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\V_KecamatanSekolah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/V_kecamatanSekolah', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(39): view('admin/V_kecamatanSekolah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 23:04:33 --> Undefined variable: totalsiswa
+in APPPATH\Views\admin\V_KecamatanSekolah.php on line 51.
+ 1 APPPATH\Views\admin\V_KecamatanSekolah.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: totalsiswa', 'APPPATH\\Views\\admin\\V_KecamatanSekolah.php', 51, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\V_KecamatanSekolah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/V_kecamatanSekolah', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(39): view('admin/V_kecamatanSekolah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-11 23:05:07 --> Undefined variable: totalsiswa
+in APPPATH\Views\admin\V_KecamatanSekolah.php on line 52.
+ 1 APPPATH\Views\admin\V_KecamatanSekolah.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: totalsiswa', 'APPPATH\\Views\\admin\\V_KecamatanSekolah.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\V_KecamatanSekolah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/V_kecamatanSekolah', [], true)
+ 5 APPPATH\Controllers\Kecamatan.php(39): view('admin/V_kecamatanSekolah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Kecamatan->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kecamatan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

@@ -1,0 +1,247 @@
+CRITICAL - 2023-01-13 10:17:50 --> Undefined property: stdClass::$id_sekolah
+in APPPATH\Views\admin\V_Edityayasan.php on line 23.
+ 1 APPPATH\Views\admin\V_Edityayasan.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$id_sekolah', 'APPPATH\\Views\\admin\\V_Edityayasan.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\V_Edityayasan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/V_Edityayasan', [], true)
+ 5 APPPATH\Controllers\Yayasan.php(51): view('admin/V_Edityayasan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Yayasan->editYayasan('1314')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yayasan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 10:18:17 --> Undefined variable: kecamatan
+in APPPATH\Views\admin\V_Edityayasan.php on line 45.
+ 1 APPPATH\Views\admin\V_Edityayasan.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: kecamatan', 'APPPATH\\Views\\admin\\V_Edityayasan.php', 45, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\V_Edityayasan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/V_Edityayasan', [], true)
+ 5 APPPATH\Controllers\Yayasan.php(51): view('admin/V_Edityayasan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Yayasan->editYayasan('1314')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yayasan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 10:19:00 --> Class 'App\Controllers\ModelKecamatan' not found
+in APPPATH\Controllers\Yayasan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Yayasan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 10:19:24 --> Undefined property: stdClass::$alamat
+in APPPATH\Views\admin\V_Edityayasan.php on line 53.
+ 1 APPPATH\Views\admin\V_Edityayasan.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$alamat', 'APPPATH\\Views\\admin\\V_Edityayasan.php', 53, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\V_Edityayasan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/V_Edityayasan', [], true)
+ 5 APPPATH\Controllers\Yayasan.php(54): view('admin/V_Edityayasan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Yayasan->editYayasan('1314')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yayasan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-01-13 10:22:54 --> mysqli_sql_exception: Unknown column 'yayasan.id_yaysan' in 'where clause' in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT yayasan....', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT yayasan....')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT yayasan....')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelYayasan.php(29): CodeIgniter\Database\BaseConnection->query('SELECT yayasan....')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Yayasan.php(47): App\Models\ModelYayasan->getDataById('1314')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Yayasan->editYayasan('1314')
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yayasan))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-13 10:22:54 --> Unknown column 'yayasan.id_yaysan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT yayasan.*, kecamatan.nm_kecamatan, kecamatan.group
+        FROM yayasan
+        LEFT JOIN kecamatan ON kecamatan.id_kecamatan = yayasan.id_kecamatan  
+        WHERE yayasan.id_yaysan =\'1314\'
+        ORDER BY `yayasan`.`id_kecamatan` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT yayasan.*, kecamatan.nm_kecamatan, kecamatan.group
+        FROM yayasan
+        LEFT JOIN kecamatan ON kecamatan.id_kecamatan = yayasan.id_kecamatan  
+        WHERE yayasan.id_yaysan =\'1314\'
+        ORDER BY `yayasan`.`id_kecamatan` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT yayasan.*, kecamatan.nm_kecamatan, kecamatan.group
+        FROM yayasan
+        LEFT JOIN kecamatan ON kecamatan.id_kecamatan = yayasan.id_kecamatan  
+        WHERE yayasan.id_yaysan =\'1314\'
+        ORDER BY `yayasan`.`id_kecamatan` ASC')
+ 4 APPPATH\Models\ModelYayasan.php(29): CodeIgniter\Database\BaseConnection->query('SELECT yayasan.*, kecamatan.nm_kecamatan, kecamatan.group
+        FROM yayasan
+        LEFT JOIN kecamatan ON kecamatan.id_kecamatan = yayasan.id_kecamatan  
+        WHERE yayasan.id_yaysan =\'1314\'
+        ORDER BY `yayasan`.`id_kecamatan` ASC')
+ 5 APPPATH\Controllers\Yayasan.php(47): App\Models\ModelYayasan->getDataById('1314')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Yayasan->editYayasan('1314')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yayasan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-01-13 10:23:38 --> mysqli_sql_exception: Unknown column 'yayasan.id_yaysan' in 'where clause' in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT yayasan....', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT yayasan....')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT yayasan....')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelYayasan.php(29): CodeIgniter\Database\BaseConnection->query('SELECT yayasan....')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Yayasan.php(47): App\Models\ModelYayasan->getDataById('1314')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Yayasan->editYayasan('1314')
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yayasan))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-13 10:23:38 --> Unknown column 'yayasan.id_yaysan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT yayasan.*, kecamatan.nm_kecamatan, kecamatan.group
+        FROM yayasan
+        LEFT JOIN kecamatan ON kecamatan.id_kecamatan = yayasan.id_kecamatan  
+        WHERE yayasan.id_yaysan =\'1314\'
+        ORDER BY yayasan.id_kecamatan ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT yayasan.*, kecamatan.nm_kecamatan, kecamatan.group
+        FROM yayasan
+        LEFT JOIN kecamatan ON kecamatan.id_kecamatan = yayasan.id_kecamatan  
+        WHERE yayasan.id_yaysan =\'1314\'
+        ORDER BY yayasan.id_kecamatan ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT yayasan.*, kecamatan.nm_kecamatan, kecamatan.group
+        FROM yayasan
+        LEFT JOIN kecamatan ON kecamatan.id_kecamatan = yayasan.id_kecamatan  
+        WHERE yayasan.id_yaysan =\'1314\'
+        ORDER BY yayasan.id_kecamatan ASC')
+ 4 APPPATH\Models\ModelYayasan.php(29): CodeIgniter\Database\BaseConnection->query('SELECT yayasan.*, kecamatan.nm_kecamatan, kecamatan.group
+        FROM yayasan
+        LEFT JOIN kecamatan ON kecamatan.id_kecamatan = yayasan.id_kecamatan  
+        WHERE yayasan.id_yaysan =\'1314\'
+        ORDER BY yayasan.id_kecamatan ASC')
+ 5 APPPATH\Controllers\Yayasan.php(47): App\Models\ModelYayasan->getDataById('1314')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Yayasan->editYayasan('1314')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yayasan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-01-13 10:23:39 --> mysqli_sql_exception: Unknown column 'yayasan.id_yaysan' in 'where clause' in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT yayasan....', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT yayasan....')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT yayasan....')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelYayasan.php(29): CodeIgniter\Database\BaseConnection->query('SELECT yayasan....')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Yayasan.php(47): App\Models\ModelYayasan->getDataById('1314')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Yayasan->editYayasan('1314')
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yayasan))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-13 10:23:39 --> Unknown column 'yayasan.id_yaysan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT yayasan.*, kecamatan.nm_kecamatan, kecamatan.group
+        FROM yayasan
+        LEFT JOIN kecamatan ON kecamatan.id_kecamatan = yayasan.id_kecamatan  
+        WHERE yayasan.id_yaysan =\'1314\'
+        ORDER BY yayasan.id_kecamatan ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT yayasan.*, kecamatan.nm_kecamatan, kecamatan.group
+        FROM yayasan
+        LEFT JOIN kecamatan ON kecamatan.id_kecamatan = yayasan.id_kecamatan  
+        WHERE yayasan.id_yaysan =\'1314\'
+        ORDER BY yayasan.id_kecamatan ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT yayasan.*, kecamatan.nm_kecamatan, kecamatan.group
+        FROM yayasan
+        LEFT JOIN kecamatan ON kecamatan.id_kecamatan = yayasan.id_kecamatan  
+        WHERE yayasan.id_yaysan =\'1314\'
+        ORDER BY yayasan.id_kecamatan ASC')
+ 4 APPPATH\Models\ModelYayasan.php(29): CodeIgniter\Database\BaseConnection->query('SELECT yayasan.*, kecamatan.nm_kecamatan, kecamatan.group
+        FROM yayasan
+        LEFT JOIN kecamatan ON kecamatan.id_kecamatan = yayasan.id_kecamatan  
+        WHERE yayasan.id_yaysan =\'1314\'
+        ORDER BY yayasan.id_kecamatan ASC')
+ 5 APPPATH\Controllers\Yayasan.php(47): App\Models\ModelYayasan->getDataById('1314')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Yayasan->editYayasan('1314')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yayasan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2023-01-13 10:23:40 --> mysqli_sql_exception: Unknown column 'yayasan.id_yaysan' in 'where clause' in C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\muhasin\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT yayasan....', 0)
+#1 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT yayasan....')
+#2 C:\xampp\htdocs\muhasin\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT yayasan....')
+#3 C:\xampp\htdocs\muhasin\app\Models\ModelYayasan.php(29): CodeIgniter\Database\BaseConnection->query('SELECT yayasan....')
+#4 C:\xampp\htdocs\muhasin\app\Controllers\Yayasan.php(47): App\Models\ModelYayasan->getDataById('1314')
+#5 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(927): App\Controllers\Yayasan->editYayasan('1314')
+#6 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yayasan))
+#7 C:\xampp\htdocs\muhasin\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\muhasin\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\muhasin\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-01-13 10:23:40 --> Unknown column 'yayasan.id_yaysan' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT yayasan.*, kecamatan.nm_kecamatan, kecamatan.group
+        FROM yayasan
+        LEFT JOIN kecamatan ON kecamatan.id_kecamatan = yayasan.id_kecamatan  
+        WHERE yayasan.id_yaysan =\'1314\'
+        ORDER BY yayasan.id_kecamatan ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT yayasan.*, kecamatan.nm_kecamatan, kecamatan.group
+        FROM yayasan
+        LEFT JOIN kecamatan ON kecamatan.id_kecamatan = yayasan.id_kecamatan  
+        WHERE yayasan.id_yaysan =\'1314\'
+        ORDER BY yayasan.id_kecamatan ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT yayasan.*, kecamatan.nm_kecamatan, kecamatan.group
+        FROM yayasan
+        LEFT JOIN kecamatan ON kecamatan.id_kecamatan = yayasan.id_kecamatan  
+        WHERE yayasan.id_yaysan =\'1314\'
+        ORDER BY yayasan.id_kecamatan ASC')
+ 4 APPPATH\Models\ModelYayasan.php(29): CodeIgniter\Database\BaseConnection->query('SELECT yayasan.*, kecamatan.nm_kecamatan, kecamatan.group
+        FROM yayasan
+        LEFT JOIN kecamatan ON kecamatan.id_kecamatan = yayasan.id_kecamatan  
+        WHERE yayasan.id_yaysan =\'1314\'
+        ORDER BY yayasan.id_kecamatan ASC')
+ 5 APPPATH\Controllers\Yayasan.php(47): App\Models\ModelYayasan->getDataById('1314')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Yayasan->editYayasan('1314')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yayasan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 10:41:49 --> Undefined property: App\Controllers\Yayasan::$sekolah
+in APPPATH\Controllers\Yayasan.php on line 64.
+ 1 APPPATH\Controllers\Yayasan.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Yayasan::$sekolah', 'APPPATH\\Controllers\\Yayasan.php', 64, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Yayasan->saveedityayasan('629')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yayasan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 10:51:49 --> Undefined variable: row
+in APPPATH\Views\admin\V_Insertyayasan.php on line 23.
+ 1 APPPATH\Views\admin\V_Insertyayasan.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Views\\admin\\V_Insertyayasan.php', 23, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\V_Insertyayasan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/V_Insertyayasan', [], true)
+ 5 APPPATH\Controllers\Yayasan.php(76): view('admin/V_Insertyayasan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Yayasan->insertyayasan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yayasan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 10:52:13 --> Undefined variable: row
+in APPPATH\Views\admin\V_Insertyayasan.php on line 38.
+ 1 APPPATH\Views\admin\V_Insertyayasan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: row', 'APPPATH\\Views\\admin\\V_Insertyayasan.php', 38, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\V_Insertyayasan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/V_Insertyayasan', [], true)
+ 5 APPPATH\Controllers\Yayasan.php(76): view('admin/V_Insertyayasan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Yayasan->insertyayasan()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yayasan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-13 11:06:18 --> Undefined variable: id_sid_yayasanekolah
+in APPPATH\Controllers\Yayasan.php on line 93.
+ 1 APPPATH\Controllers\Yayasan.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_sid_yayasanekolah', 'APPPATH\\Controllers\\Yayasan.php', 93, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Yayasan->hapusYayasan('1521')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yayasan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

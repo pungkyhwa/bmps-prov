@@ -1,0 +1,24 @@
+CRITICAL - 2023-01-02 01:30:37 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\admin\V_Sekolah.php on line 112.
+ 1 APPPATH\Views\admin\V_Sekolah.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\admin\\V_Sekolah.php', 112, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\V_Sekolah.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/V_Sekolah', [], true)
+ 5 APPPATH\Controllers\Sekolah.php(30): view('admin/V_Sekolah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-02 02:45:46 --> Undefined property: stdClass::$m_sekolah_kemenag
+in APPPATH\Views\admin\V_EditSekolahKemenag.php on line 39.
+ 1 APPPATH\Views\admin\V_EditSekolahKemenag.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$m_sekolah_kemenag', 'APPPATH\\Views\\admin\\V_EditSekolahKemenag.php', 39, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\V_EditSekolahKemenag.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/V_EditSekolahKemenag', [], true)
+ 5 APPPATH\Controllers\Sekolah.php(286): view('admin/V_EditSekolahKemenag', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->editsekolahkemenag('123')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

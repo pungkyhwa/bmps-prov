@@ -1,0 +1,8 @@
+CRITICAL - 2022-12-17 23:36:34 --> Undefined variable: id_bentuk_pendidikan
+in APPPATH\Controllers\Sekolah.php on line 51.
+ 1 APPPATH\Controllers\Sekolah.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_bentuk_pendidikan', 'APPPATH\\Controllers\\Sekolah.php', 51, [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Sekolah->insersekolah()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sekolah))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

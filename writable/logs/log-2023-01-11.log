@@ -1,0 +1,32 @@
+CRITICAL - 2023-01-11 21:07:06 --> Undefined property: App\Controllers\Yayasan::$sekolah
+in APPPATH\Controllers\Yayasan.php on line 21.
+ 1 APPPATH\Controllers\Yayasan.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\Yayasan::$sekolah', 'APPPATH\\Controllers\\Yayasan.php', 21, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Yayasan->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yayasan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-11 21:07:23 --> Undefined property: stdClass::$nm_yaysan
+in APPPATH\Views\admin\V_Yayasan.php on line 71.
+ 1 APPPATH\Views\admin\V_Yayasan.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nm_yaysan', 'APPPATH\\Views\\admin\\V_Yayasan.php', 71, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\V_Yayasan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/V_Yayasan', [], true)
+ 5 APPPATH\Controllers\Yayasan.php(27): view('admin/V_Yayasan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Yayasan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yayasan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2023-01-11 21:07:39 --> Undefined property: stdClass::$id_sekolah
+in APPPATH\Views\admin\V_Yayasan.php on line 74.
+ 1 APPPATH\Views\admin\V_Yayasan.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$id_sekolah', 'APPPATH\\Views\\admin\\V_Yayasan.php', 74, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\V_Yayasan.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('admin/V_Yayasan', [], true)
+ 5 APPPATH\Controllers\Yayasan.php(27): view('admin/V_Yayasan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Yayasan->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Yayasan))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
